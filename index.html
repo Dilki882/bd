@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10090d">
+  <title>For Panchoo | A Birthday Surprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <canvas id="sparkles" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#home">P<span>♥</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#story">Our Story</a><a href="#memories">Memories</a>
+      <a href="#letter">A Letter</a><a href="#music">Our Music</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-kicker"><span></span> A little world made just for you <span></span></div>
+      <p class="eyebrow">31 · 10 · 2026</p>
+      <h1>Happy Birthday,<br><em>Panchoo</em></h1>
+      <p class="hero-copy">Some people make life beautiful.<br><strong>You make my world magical.</strong></p>
+      <div class="countdown-wrap">
+        <p class="mini-label" id="countdownLabel">COUNTING DOWN TO YOUR DAY</p>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">00</strong><span>Days</span></div>
+          <div><strong id="hours">00</strong><span>Hours</span></div>
+          <div><strong id="minutes">00</strong><span>Minutes</span></div>
+          <div><strong id="seconds">00</strong><span>Seconds</span></div>
+        </div>
+      </div>
+      <a class="button button-gold" href="#story">Enter our little world <span>↓</span></a>
+      <div class="scroll-note">SCROLL TO FEEL THE LOVE</div>
+    </section>
+
+    <section class="section story-section" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTER ONE</p>
+        <h2>Where <em>our story</em> began</h2>
+        <p class="subtext">A few moments, a thousand feelings, and a story that is ours.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-card">
+          <span class="timeline-dot">01</span>
+          <p class="eyebrow">THE BEGINNING</p>
+          <h3>That first hello</h3>
+          <p>We first met and talked at Torrington Park in Kandy. I didn't know then how special that little moment would become.</p>
+          <small>18 August 2024 · Kandy</small>
+        </article>
+        <article class="timeline-card">
+          <span class="timeline-dot">02</span>
+          <p class="eyebrow">THE FIRST CONVERSATION</p>
+          <h3>A simple talk, a lovely memory</h3>
+          <p>One conversation became a memory I never want to forget. Sometimes the best things begin so quietly.</p>
+          <small>And our story kept growing…</small>
+        </article>
+        <article class="timeline-card">
+          <span class="timeline-dot">03</span>
+          <p class="eyebrow">EVERYTHING AFTER</p>
+          <h3>More moments, more love</h3>
+          <p>Every laugh, every little memory, and every moment together has become a part of my favourite story.</p>
+          <small>To many more chapters together ♥</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTER TWO</p>
+        <h2>Our beautiful <em>memories</em></h2>
+        <p class="subtext">Nine little windows into moments I keep close to my heart.</p>
+      </div>
+      <div class="gallery" id="gallery">
+        <figure class="memory-card"><img src="photo-1.jpg.jpeg" alt="Memory 1"><figcaption><span>01</span> A favourite moment</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.46 PM.jpeg" alt="Memory 2"><figcaption><span>02</span> Your smile</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.47 PM (1).jpeg" alt="Memory 3"><figcaption><span>03</span> Just us</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.47 PM.jpeg" alt="Memory 4"><figcaption><span>04</span> A little happiness</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.49 PM.jpeg" alt="Memory 5"><figcaption><span>05</span> Unforgettable</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.50 PM.jpeg" alt="Memory 6"><figcaption><span>06</span> My person</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.51 PM.jpeg" alt="Memory 7"><figcaption><span>07</span> Sweet memories</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.52 PM (1).jpeg" alt="Memory 8"><figcaption><span>08</span> Another little story</figcaption></figure>
+        <figure class="memory-card"><img src="WhatsApp Image 2026-10-30 at 12.10.52 PM.jpeg" alt="Memory 9"><figcaption><span>09</span> Always treasured</figcaption></figure>
+      </div>
+      
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTER THREE</p>
+        <h2>A little letter <em>for you</em></h2>
+        <p class="subtext">There are some things I want you to read slowly.</p>
+      </div>
+      <div class="envelope-area">
+        <button class="envelope" id="openLetter" aria-label="Open your letter">
+          <span class="envelope-heart">♥</span><span class="envelope-text">For my Panchoo</span>
+          <span class="envelope-hint">TAP TO OPEN</span>
+        </button>
+        <article class="letter" id="letterContent" aria-hidden="true">
+          <p class="eyebrow">MY DEAREST PANCHOO,</p>
+          <h3>Happy Birthday, my love. ♥</h3>
+          <p>Today is all about celebrating you — the person who makes ordinary moments feel special. I hope this new year of your life brings you peace, happiness, good health, and beautiful opportunities.</p>
+          <p>Thank you for being part of my story. I wish I could wrap all my love into a little gift and place it in your hands. Until then, this tiny website carries a piece of my heart.</p>
+          <p>May we make many more memories, laugh over silly things, and keep choosing the beautiful moments together.</p>
+          <p class="signature">With all my love,<br><em>Your Dilki</em> ♥</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reasons-section">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTER FOUR</p>
+        <h2>Little reasons, <em>big love</em></h2>
+        <p class="subtext">A few reasons why you are so special to me.</p>
+      </div>
+      <div class="reasons-grid">
+        <div class="reason"><b>01</b><span>Your smile can make my day brighter.</span></div>
+        <div class="reason"><b>02</b><span>You make ordinary moments feel special.</span></div>
+        <div class="reason"><b>03</b><span>You are one of my favourite people.</span></div>
+        <div class="reason"><b>04</b><span>Our memories always make me smile.</span></div>
+        <div class="reason"><b>05</b><span>There is nobody quite like you.</span></div>
+        <div class="reason"><b>06</b><span>Because being us is my favourite feeling.</span></div>
+      </div>
+    </section>
+
+    <section class="section music-section" id="music">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTER FIVE</p>
+        <h2><em>music corner</em></h2>
+        <p class="subtext">Press play, take a breath, and enjoy our songs.</p>
+      </div>
+      <div class="player">
+        <div class="record"><div class="record-center">P<span>♥</span></div></div>
+        <div class="track-info"><p class="eyebrow">NOW PLAYING</p><h3 id="songTitle">Our first song</h3><p id="songArtist">A song for you</p></div>
+        <div class="player-controls">
+          <button id="prevSong" aria-label="Previous song">↶</button>
+          <button class="play-button" id="playSong" aria-label="Play">▶</button>
+          <button id="nextSong" aria-label="Next song">↷</button>
+        </div>
+        <div class="progress-wrap"><span id="currentTime">0:00</span><input id="progress" type="range" min="0" max="100" value="0"><span id="duration">0:00</span></div>
+        
+      </div>
+      <audio id="audio" preload="metadata"></audio>
+    </section>
+
+    <section class="surprise-section">
+      <p class="eyebrow">ONE LAST LITTLE SECRET</p>
+      <h2>Ready for your <em>surprise?</em></h2>
+      <p>Some wishes are too special to keep inside.</p>
+      <button class="button button-gold" id="surpriseButton">Unlock your birthday wish ✨</button>
+      <div class="surprise-message" id="surpriseMessage">
+        <div class="big-heart">♥</div>
+        <h2>Happy Birthday, Panchoo!</h2>
+        <p>May your life be filled with love, laughter, courage, and endless beautiful beginnings.</p>
+        <p class="sinhala">ඔයාගේ හැම හීනයක්ම සැබෑ වෙන්න කියලා මම හදවතින්ම ප්‍රාර්ථනා කරනවා. හැමදාම සතුටින් පරිස්සමින් ඉන්න. ආදරෙයි! ❤️</p>
+        <strong>Forever cheering for you — Dilki</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Made with love ♥</span><p>For You · 31 October 2026</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
